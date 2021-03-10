@@ -25,4 +25,4 @@ This has to easily be some of the scrappiest code I've ever written, hands down.
 - Data retrieval - I wanted the app to work without any server-side
   interactions, so I bundled all of the data in the app. The list of USDA
   Hardiness Zones corresponding to zip codes is a very long CSV file, so I
-  decided to include it as a base64 string and then parse it at ru
+  decided to include it as a base64 string and then parse it at runtime
