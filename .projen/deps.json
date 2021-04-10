@@ -2,7 +2,7 @@
   "dependencies": [
     {
       "name": "projen",
-      "version": "^0.16.36",
+      "version": "^0.17.31",
       "type": "build"
     },
     {
