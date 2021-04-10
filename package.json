@@ -1,8 +1,6 @@
 {
   "name": "sprout",
   "scripts": {
-    "projen": "npx projen",
-    "start": "npx projen start",
     "clobber": "npx projen clobber",
     "compile": "npx projen compile",
     "test:compile": "npx projen test:compile",
@@ -13,10 +11,12 @@
     "projen:upgrade": "npx projen projen:upgrade",
     "dev": "npx projen dev",
     "server": "npx projen server",
-    "telemetry": "npx projen telemetry"
+    "telemetry": "npx projen telemetry",
+    "projen": "npx projen",
+    "start": "npx projen start"
   },
   "devDependencies": {
-    "projen": "^0.16.36",
+    "projen": "^0.17.31",
     "standard-version": "^9"
   },
   "dependencies": {
